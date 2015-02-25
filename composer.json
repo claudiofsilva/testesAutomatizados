@@ -1,6 +1,6 @@
 {
     "config": {
-        "bin_dir": "/bin"
+        "bin-dir": "bin/"
     },
     "autoload": {
         "psr-0": {"Classes": "src/"}
