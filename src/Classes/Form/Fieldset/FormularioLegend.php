@@ -1,9 +1,9 @@
 <?php
 
-namespace Classes;
+namespace Classes\Form\Fieldset;
 
 
-use Classes\Interfaces\FieldsetInterface;
+use Classes\Form\Interfaces\FieldsetInterface;
 
 class FormularioLegend implements FieldsetInterface {
 
@@ -30,6 +30,9 @@ class FormularioLegend implements FieldsetInterface {
 
     public function setType($type)
     {
+        if(is_numeric($type)){
+            throw new \InvalidArgumentException('O valor de type não pode ser numérico');
+        }
         $this->type = $type;
         return $this;
     }
