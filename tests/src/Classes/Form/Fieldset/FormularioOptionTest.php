@@ -8,8 +8,10 @@ namespace Classes\Form\Fieldset;
 class FormularioOptionTest extends \PHPUnit_Framework_TestCase {
 
     /**
-     * $formOption instancia da classe a ser testada
+     * Verificar tipo da classe
+     * Testar sets e gets
      */
+
     private $formOption;
 
     public function __construct(){

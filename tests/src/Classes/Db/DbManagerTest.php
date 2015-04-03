@@ -7,6 +7,13 @@ use Classes\Clientes\Clientes;
 
 class DbManagerTest  extends  \PHPUnit_Framework_TestCase {
 
+    /**
+     * Testar conexão com banco de dados
+     * Abri conexão com banco de dados
+     * Fechar conexão banco de dados
+     * Inserir informação banco de dados
+     */
+
     private $db;
 
     public function setUp()

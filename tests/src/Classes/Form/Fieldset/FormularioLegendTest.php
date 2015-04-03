@@ -9,8 +9,10 @@ use Classes\Form\Interfaces\FieldsetInterface;
 class FormularioLegendTest extends \PHPUnit_Framework_TestCase {
 
     /**
-     * $formLegend instancia da classe a ser testada
+     * Verificar tipo da classe
+     * Testar sets e gets
      */
+
     private $formLegend;
 
     public function __construct(){

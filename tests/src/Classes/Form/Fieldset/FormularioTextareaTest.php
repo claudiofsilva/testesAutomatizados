@@ -5,6 +5,10 @@ namespace Classes\Form\Fieldset;
 
 class FormularioTextareaTest extends \PHPUnit_Framework_TestCase {
 
+    /**
+     * Testar sets e gets
+     */
+
     public function testVerificaSetEGetCols()
     {
         $formText = new FormularioTextarea();

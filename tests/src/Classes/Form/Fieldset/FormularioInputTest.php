@@ -5,6 +5,10 @@ namespace Classes\Form\Fieldset;
 
 class FormularioInputTest extends \PHPUnit_Framework_TestCase {
 
+    /**
+     * Testar sets e gets
+     */
+
     private $formInput;
 
     public function __construct()

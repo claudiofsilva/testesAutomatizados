@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/testesAutomatizados/src/Classes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/nv.d3.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="index.html">/var/www/testesAutomatizados/src/Classes</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="NumerosRomanos/NumerosRomanos.php.html#6">NumerosRomanos</a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="Form/Fieldset/FormularioOption.php.html#10">FormularioOption</a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="Form/Fieldset/FormularioInput.php.html#6">FormularioInput</a></td><td class="text-right">72%</td></tr>
+       <tr><td><a href="Clientes/Clientes.php.html#6">Clientes</a></td><td class="text-right">75%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="NumerosRomanos/NumerosRomanos.php.html#6">NumerosRomanos</a></td><td class="text-right">51</td></tr>
+       <tr><td><a href="Form/Fieldset/FormularioOption.php.html#10">FormularioOption</a></td><td class="text-right">13</td></tr>
+       <tr><td><a href="Form/Fieldset/FormularioInput.php.html#6">FormularioInput</a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Clientes/Clientes.php.html#6">Clientes</a></td><td class="text-right">7</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Form/Fieldset/FormularioOption.php.html#29"><abbr title="FormularioOption::getInnerText">getInnerText</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/Fieldset/FormularioOption.php.html#92"><abbr title="FormularioOption::create">create</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/Fieldset/FormularioSelect.php.html#74"><abbr title="FormularioSelect::addOption">addOption</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/Fieldset/FormularioOption.php.html#20"><abbr title="FormularioOption::setInnerText">setInnerText</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/Fieldset/FormularioInput.php.html#50"><abbr title="FormularioInput::getValue">getValue</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Clientes/Clientes.php.html#19"><abbr title="Clientes::getMailTransport">getMailTransport</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Clientes/Clientes.php.html#13"><abbr title="Clientes::setMailTransport">setMailTransport</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Form/Fieldset/FormularioInput.php.html#43"><abbr title="FormularioInput::setValue">setValue</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="NumerosRomanos/NumerosRomanos.php.html#8"><abbr title="NumerosRomanos::converteNumeroInteiroParaRomano">converteNumeroInteiroParaRomano</a></a></td><td class="text-right">35%</td></tr>
+       <tr><td><a href="Form/Fieldset/FormularioFieldset.php.html#10"><abbr title="FormularioFieldset::__construct">__construct</a></a></td><td class="text-right">75%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="NumerosRomanos/NumerosRomanos.php.html#8"><abbr title="NumerosRomanos::converteNumeroInteiroParaRomano">converteNumeroInteiroParaRomano</abbr></a></td><td class="text-right">74</td></tr>
+       <tr><td><a href="Form/Fieldset/FormularioFieldset.php.html#10"><abbr title="FormularioFieldset::__construct">__construct</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.0.15</a> using <a href="http://php.net/" target="_top">PHP 5.5.9-1ubuntu4.7</a> and <a href="http://phpunit.de/">PHPUnit 4.2.6</a> at Fri Apr 3 16:57:00 BRT 2015.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="js/jquery.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="js/holder.js" type="text/javascript"></script>
+  <script src="js/d3.min.js" type="text/javascript"></script>
+  <script src="js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,0,0,0,0,0,1,0,3,1,1,4], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([8,0,0,0,1,0,0,0,1,0,0,43], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.scatter.onlyCircles(false);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[75,7,"<a href=\"Clientes\/Clientes.php.html#6\">Clientes<\/a>"],[100,5,"<a href=\"Db\/DbManager.php.html#5\">DbManager<\/a>"],[90,4,"<a href=\"Form\/Fieldset\/FormularioFieldset.php.html#6\">FormularioFieldset<\/a>"],[72.727272727273,7,"<a href=\"Form\/Fieldset\/FormularioInput.php.html#6\">FormularioInput<\/a>"],[100,8,"<a href=\"Form\/Fieldset\/FormularioLegend.php.html#8\">FormularioLegend<\/a>"],[72.222222222222,11,"<a href=\"Form\/Fieldset\/FormularioOption.php.html#10\">FormularioOption<\/a>"],[84.615384615385,8,"<a href=\"Form\/Fieldset\/FormularioSelect.php.html#9\">FormularioSelect<\/a>"],[100,11,"<a href=\"Form\/Fieldset\/FormularioTextarea.php.html#9\">FormularioTextarea<\/a>"],[100,3,"<a href=\"Math.php.html#7\">Math<\/a>"],[55,19,"<a href=\"NumerosRomanos\/NumerosRomanos.php.html#6\">NumerosRomanos<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.scatter.onlyCircles(false);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Clientes\/Clientes.php.html#13\">Clientes::setMailTransport<\/a>"],[0,1,"<a href=\"Clientes\/Clientes.php.html#19\">Clientes::getMailTransport<\/a>"],[100,2,"<a href=\"Clientes\/Clientes.php.html#24\">Clientes::setEmail<\/a>"],[100,1,"<a href=\"Clientes\/Clientes.php.html#37\">Clientes::getEmail<\/a>"],[100,1,"<a href=\"Clientes\/Clientes.php.html#43\">Clientes::setNome<\/a>"],[100,1,"<a href=\"Clientes\/Clientes.php.html#50\">Clientes::getNome<\/a>"],[100,1,"<a href=\"Db\/DbManager.php.html#11\">DbManager::setDbAdapter<\/a>"],[100,1,"<a href=\"Db\/DbManager.php.html#17\">DbManager::getConnection<\/a>"],[100,1,"<a href=\"Db\/DbManager.php.html#22\">DbManager::persist<\/a>"],[100,2,"<a href=\"Db\/DbManager.php.html#28\">DbManager::flush<\/a>"],[75,2,"<a href=\"Form\/Fieldset\/FormularioFieldset.php.html#10\">FormularioFieldset::__construct<\/a>"],[100,2,"<a href=\"Form\/Fieldset\/FormularioFieldset.php.html#18\">FormularioFieldset::createFieldset<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioInput.php.html#13\">FormularioInput::setName<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioInput.php.html#20\">FormularioInput::getName<\/a>"],[100,2,"<a href=\"Form\/Fieldset\/FormularioInput.php.html#26\">FormularioInput::setType<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioInput.php.html#37\">FormularioInput::getType<\/a>"],[0,1,"<a href=\"Form\/Fieldset\/FormularioInput.php.html#43\">FormularioInput::setValue<\/a>"],[0,1,"<a href=\"Form\/Fieldset\/FormularioInput.php.html#50\">FormularioInput::getValue<\/a>"],[100,2,"<a href=\"Form\/Fieldset\/FormularioLegend.php.html#15\">FormularioLegend::setName<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioLegend.php.html#25\">FormularioLegend::getName<\/a>"],[100,2,"<a href=\"Form\/Fieldset\/FormularioLegend.php.html#31\">FormularioLegend::setType<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioLegend.php.html#41\">FormularioLegend::getType<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioLegend.php.html#47\">FormularioLegend::setValue<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioLegend.php.html#54\">FormularioLegend::getValue<\/a>"],[0,1,"<a href=\"Form\/Fieldset\/FormularioOption.php.html#20\">FormularioOption::setInnerText<\/a>"],[0,1,"<a href=\"Form\/Fieldset\/FormularioOption.php.html#29\">FormularioOption::getInnerText<\/a>"],[100,2,"<a href=\"Form\/Fieldset\/FormularioOption.php.html#37\">FormularioOption::setName<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioOption.php.html#49\">FormularioOption::getName<\/a>"],[100,2,"<a href=\"Form\/Fieldset\/FormularioOption.php.html#57\">FormularioOption::setType<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioOption.php.html#70\">FormularioOption::getType<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioOption.php.html#78\">FormularioOption::setValue<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioOption.php.html#87\">FormularioOption::getValue<\/a>"],[0,1,"<a href=\"Form\/Fieldset\/FormularioOption.php.html#92\">FormularioOption::create<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioSelect.php.html#19\">FormularioSelect::setName<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioSelect.php.html#28\">FormularioSelect::getName<\/a>"],[100,2,"<a href=\"Form\/Fieldset\/FormularioSelect.php.html#36\">FormularioSelect::setType<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioSelect.php.html#52\">FormularioSelect::getType<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioSelect.php.html#60\">FormularioSelect::setValue<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioSelect.php.html#69\">FormularioSelect::getValue<\/a>"],[0,1,"<a href=\"Form\/Fieldset\/FormularioSelect.php.html#74\">FormularioSelect::addOption<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioTextarea.php.html#19\">FormularioTextarea::setCols<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioTextarea.php.html#28\">FormularioTextarea::getCols<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioTextarea.php.html#36\">FormularioTextarea::setName<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioTextarea.php.html#45\">FormularioTextarea::getName<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioTextarea.php.html#53\">FormularioTextarea::setRow<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioTextarea.php.html#62\">FormularioTextarea::getRow<\/a>"],[100,2,"<a href=\"Form\/Fieldset\/FormularioTextarea.php.html#70\">FormularioTextarea::setType<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioTextarea.php.html#83\">FormularioTextarea::getType<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioTextarea.php.html#91\">FormularioTextarea::setValue<\/a>"],[100,1,"<a href=\"Form\/Fieldset\/FormularioTextarea.php.html#101\">FormularioTextarea::getValue<\/a>"],[100,3,"<a href=\"Math.php.html#9\">Math::soma<\/a>"],[35.714285714286,15,"<a href=\"NumerosRomanos\/NumerosRomanos.php.html#8\">NumerosRomanos::converteNumeroInteiroParaRomano<\/a>"],[100,4,"<a href=\"NumerosRomanos\/NumerosRomanos.php.html#85\">NumerosRomanos::converteNumeroRomanoParaInteiro<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
